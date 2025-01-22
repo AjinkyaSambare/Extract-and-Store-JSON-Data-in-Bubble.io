@@ -23,7 +23,7 @@ This guide provides step-by-step instructions to build a simple Bubble.io applic
 
 **Example Layout:**
 
-![Basic UI](<Screenshot 2025-01-22 at 11.16.07 AM.png>)
+![Basic UI](assests/BasicUI.png)
 
 ---
 
@@ -33,7 +33,6 @@ This guide provides step-by-step instructions to build a simple Bubble.io applic
 2. Create a new event: **"When Button Submit is clicked"**.
 3. Add an action: **"Plugins -> API Connector"** to send input data to GPT.
 
-![Workflow Setup]
 
 ---
 
@@ -58,7 +57,7 @@ This guide provides step-by-step instructions to build a simple Bubble.io applic
    - Choose the `APIResponse` data type.
    - Store the API response in a field.
 
-![DataBase Setup](<Screenshot 2025-01-22 at 11.33.18 AM.png>)
+![DataBase Setup](<assests/Database-Setup.png>)
 
 ---
 
@@ -81,9 +80,8 @@ Example:
 - `Name` field: `Extract with Regex -> "name":\s*"([^"]+)"`
 - `Age` field: `Extract with Regex -> "age":\s*(\d+)`
 
-![WorkFlow1](<Screenshot 2025-01-22 at 11.32.06 AM.png>)
-![WorkFlow2](<Screenshot 2025-01-22 at 11.32.24 AM.png>)
-![WorkFlow3](<Screenshot 2025-01-22 at 11.32.48 AM.png>)
+![WorkFlow1](<assests/WorkFlow-1.png>)
+![WorkFlow1](<assests/WorkFlow-2.png>)
 
 ---
 
@@ -103,7 +101,7 @@ Example:
 2. Check Bubble logs for debugging extraction.
 3. Verify stored data in the database.
 
-![output](<Screenshot 2025-01-22 at 11.33.33 AM-1.png>)
+![output](<assests/output.png>)
 
 ---
 
